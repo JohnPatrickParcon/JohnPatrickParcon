@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body{
+    background-color: #a865c9;
+    }
+#grid-container-info{
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 5.5vmin;
+    background-color: rgb(44, 44, 44);
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
+}
+a:visited, a:link{
+    text-decoration: none;  
+    color: whitesmoke;
+}
+[class|="info"]:hover{
+    background-color: whitesmoke;
+    color: rgb(44, 44, 44);
+    transition-duration: 500ms;
+}
+.info-item1:hover{
+    background-color: rgb(44, 44, 44);
+    color: whitesmoke;
+}
+#grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    margin: auto 10%;
+    background-color: whitesmoke;
+    color: black;
+    padding-top: 10vmin;
+}
+.profile-pic{
+    border-radius: 50%;
+    width: 25vw;
+    height: auto;
+    padding: 4vmin;
+}
+.grid-item2, .grid-item3, .grid-item4, .grid-item5{
+    margin: 15% auto;
+    font-size: 3.25vh;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+    padding: 1vmin 4vmin;
+}
+.about1, .section-title, .edubg-content{
+    text-align: center;
+    font-weight: bold;
+}
+.about2{
+    padding: 1vmin;
+}
+.grid-item3, .grid-item4, .grid-item5{
+    grid-column: 1 / 2 span;
+}
+.edu{
+    float: left;
+    text-align: center;
+    width: 50%;
+    padding: 10vmin 0vmin;
+}
+.edubackground-img{
+    width: 10vw;
+    height: auto;
+    padding: 4vmin 4vmin;
+}
+.project1{
+    width: 40vw;
+    height: auto;
+    padding: 4vmin 4vmin;
+}
+
+.link, i{
+    text-align: center;
+    color: black;
+    font-size: 5vmin;
+    width: 100%;
+}
