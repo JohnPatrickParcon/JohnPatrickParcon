@@ -1,4 +1,4 @@
-### Outdated, will update soon.
+Outdated, will update soon.
 
 <!--
 **JohnPatrickParcon/JohnPatrickParcon** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
